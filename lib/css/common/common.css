@@ -1,6 +1,14 @@
+/* Allow Posts to stretch to full column height in post list */
 .wp-block-post{
 	overflow:hidden;
+	display: flex;
+	flex-direction: column;
 }
+.wp-block-post .wp-block-group{
+	display: flex;
+	flex-direction: column;
+}
+
 @media (min-width: 768px) {
 	.wp-block-post-template.is-flex-container.is-flex-container > li,
 	.wp-block-query-loop.is-flex-container.is-flex-container > li {
