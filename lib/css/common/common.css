@@ -1,3 +1,8 @@
+@media (max-width: 768px){
+	.wp-block-post-template.is-layout-grid{
+		grid-template-columns:1 !important;
+	}
+}
 /* Allow Posts to stretch to full column height in post list */
 .wp-block-post{
 	overflow:hidden;
